@@ -1,0 +1,23 @@
+public class Test6 {
+
+    public int multiplyTwoNumbers(int x, int y) {
+
+	return x * y;
+    }
+    private  int divideTwoNumbers(int a, int b) {
+	return x / y;
+    }
+    public void printString(String str)
+    {
+	System.out.println(str);
+    }
+    public static void main (String[] args) {
+	int z = multiplyTwoNumbers(4,3);
+	int w = divideTwoNumbers(20,2);
+	printString("4 * 3 is...");
+	printString(z);
+	printString("20 / 2 is...");
+	printString(w);
+	return;
+    }
+}
